@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1",
+        "title": "Ingatlaniroda",
+        "photo_url": "...",
+        "repo-link": "...",
+        "topics": [
+            "fetch API",
+            json["repo-link"]
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "..."
+    },
+    {
+        "id": "2",
+        "title": "Products",
+        "photo_url": "...",
+        "repo-link": "...",
+        "topics": [
+            "fetch API",
+            "checkboxok használata",
+            "Reszponzív design",
+            "Javascript függvények"
+        ],
+        "site-link": "..."
+    },
+    {
+        "id": "3",
+        "title": "Képkereső",
+        "photo_url": "https://res.cloudinary.com/dimmnjecu/image/upload/v1741766878/e3_d9e49m.png",
+        "repo-link": "https://github.com/vw222-sch/unsplash",
+        "topics": [
+            "fetch API",
+            "adatok szűrése",
+            "oldallapozás megvalósítása",
+            "reszponzív design",
+            "Tailwind",
+            "Popover API"
+        ],
+        "site-link": "https://vw222-sch.github.io/unsplash/"
+    },
+    {
+        "id": "4",
+        "title": "Profilkártya",
+        "photo_url": "https://res.cloudinary.com/dimmnjecu/image/upload/v1741766323/e2_uscccz.png",
+        "repo-link": "https://github.com/vw222-sch/profilecard",
+        "topics": [
+            "Reszponzív design",
+            "Flexbox vs grid elrendezés",
+            "Objektumok destrukturálása",
+            "Popover"
+        ],
+        "site-link": "https://vw222-sch.github.io/profilecard/"
+    },
+    {
+        "id": "5",
+        "title": "Virágbolt",
+        "photo_url": "https://res.cloudinary.com/dimmnjecu/image/upload/v1741766257/e_b9nck6.png",
+        "repo-link": "https://github.com/vw222-sch/viragbolt",
+        "topics": [
+            "Fetch API használata",
+            "adatok programozott renderelése",
+            "reszponzív design"
+        ],
+        "site-link": "https://vw222-sch.github.io/viragbolt/"
+    }
+]
