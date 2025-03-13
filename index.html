@@ -1,11 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólió</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="getData.js"></script>
+    <script src="main.js" defer></script>
+
 </head>
+
 <body>
-    nics kész
+
+    <nav>
+        <div class="logo"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1F68MYKAhP7fZ-JsiWwF2fQP9KK-fxELtlPide2Fgv0I0DTSHsSzPOPym_YWvg4Rirg&usqp=CAU">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">Rólam</a></li>
+            <li><a href="#work">Munkáim</a></li>
+            <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="col-left">
+                <img src="https://www.tagesspiegel.de/images/12608081/alternates/BASE_1_1_W1000/1730135716000/viktor-orban.jpeg"
+                    alt="" class="hero-image">
+            </div>
+            <div class="col-right">
+                <h2>Orbán Viktor</h2>
+
+                <blockquote class="motto">Pénz pénz pénz pénzecske.</blockquote>
+            </div>
+
+
+        </div>
+        <div class="circles">
+            <a href="#about" class="btn">Rólam</a>
+            <a href="#work" class="btn">Munkáim</a>
+            <a href="#contact" class="btn">Kapcsolat</a>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <h2>Rólam</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Culpa, nobis? Iure animi, ut impedit illum magni natus laudantium voluptatum rem nihil sit ad
+            laboriosam quidem culpa modi atque voluptas in!
+            Mollitia fugiat placeat quibusdam rem, consequuntur nostrum dicta, cum non libero id, voluptatem veritatis
+            neque facere aut veniam explicabo omnis error illum officiis? Quasi voluptates deleniti officia aliquid
+            itaque incidunt!
+            Illo, aliquam dolor eius vel aut hic. Nisi facere dicta assumenda ut, libero voluptate. Suscipit quam
+            similique velit non architecto! Fugiat consequatur labore, ratione aut expedita ad provident facere impedit.
+            Qui accusamus blanditiis explicabo necessitatibus aspernatur sint quos, quaerat at eveniet veritatis!
+            Molestiae, odit beatae eligendi eveniet corporis nostrum, impedit deserunt explicabo asperiores facilis quis
+            quisquam. Sequi ipsa nemo quia.
+            Est dolorem rem nulla optio expedita aut reprehenderit illo quasi repudiandae rerum aliquid et laudantium
+            facere porro repellendus earum officia, nihil qui debitis culpa. Dolore optio fuga a minus debitis!
+            Quas ea perspiciatis eveniet quos necessitatibus enim consequatur recusandae blanditiis, culpa adipisci
+            officiis at reprehenderit provident corporis aperiam consectetur eligendi distinctio. Vitae iste incidunt
+            omnis eveniet cum facilis distinctio blanditiis.
+            Quisquam sunt assumenda tempora dolores voluptates autem incidunt aliquid voluptatibus, illo minima quidem
+            fugiat consequatur accusamus suscipit harum iusto minus dignissimos nulla. Temporibus harum error minus
+            aliquid nulla vero cupiditate.
+            Amet, porro rerum? Itaque eos, quas quaerat ducimus dolor mollitia soluta repellendus! Id in nam ratione
+            sapiente repellendus natus adipisci nemo consequatur repudiandae necessitatibus eos maxime ut, labore sint?
+            Illum.
+            Temporibus odit ad doloribus unde, in animi velit asperiores, nihil iure eos architecto vel voluptatibus,
+            nostrum quae corrupti tempore sequi odio? Quisquam vero labore consequuntur esse optio totam eaque mollitia.
+            In perspiciatis veniam ab quas officiis est, quos, perferendis ut laborum eos animi magnam similique
+            doloremque aspernatur. Enim aut, aperiam repellat nobis dolorem harum aliquam voluptatem, nostrum voluptates
+            tempora magnam.</p>
+    </section>
+
+    <section id="work" class="work">
+        <h2>Munkáim</h2>
+
+    </section>
+
+
+    <footer id="contact">
+        <div class="contact-container">
+            <h2>Kapcsolat</h2>
+
+            <div class="contact-info">
+                <div class="contact-method">
+                    <h3>Elérhetőségeink</h3>
+                    <ul>
+                        <li><strong>📧</strong> info@company.com</li>
+                        <li><strong>☎️</strong> +36 1 234 5678</li>
+                        <li><strong>🗺️</strong> 1234 Budapest, Fő utca 1.</li>
+                    </ul>
+                </div>
+
+                <div class="contact-form">
+
+                    <div class="form4">
+                        <form action="">
+                            <span>Contact Form</span>
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="number" placeholder="Phone Number" required>
+                            <textarea name="message" placeholder="Message"></textarea>
+                            <button class="btn-submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.237729775272!2d19.685176676189467!3d46.91770787113487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1sen!2shu!4v1736096931631!5m2!1sen!2shu"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const src = "https://raw.githubusercontent.com/vw222-sch/portfolio/refs/heads/main/portfolio.json";
+        const munka = document.querySelector(".work");
+
+        async function fetchJson(url) {
+            const response = await fetch(url);
+            const jsonData = await response.json();
+            return jsonData;
+        }
+        async function main() {
+            let data = await fetchJson(src);
+            console.log(data);
+
+            data.forEach(v => {
+                munka.innerHTML += `
+                <div class="e">
+                    <img src="${v.photo_url}" alt="">
+                    <div>
+                        <h1>${v.title}</h1>
+                        <hr>
+                        <h2>Témakörök</h2>
+                        <ul>${v.topics.reduce((total, b) => {
+                            return total += `<li>${b}</li>`;
+                        }, '')}</ul>
+                        <div class="b">
+                            <a href="${v["repo-link"]}">Github link</a>
+                            <a href="${v["site-link"]}">Weboldal link</a>
+                        </div>
+                    </div>
+                </div>
+                `
+            })
+        }
+        main();
+    </script>
 </body>
+
 </html>
