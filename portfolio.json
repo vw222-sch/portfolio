@@ -6,7 +6,6 @@
         "repo-link": "...",
         "topics": [
             "fetch API",
-            json["repo-link"]
             "Set adatszerkezet",
             "Array.from()",
             "radió gombok használata",
@@ -18,15 +17,15 @@
     {
         "id": "2",
         "title": "Products",
-        "photo_url": "...",
-        "repo-link": "...",
+        "photo_url": "https://res.cloudinary.com/dimmnjecu/image/upload/v1741902912/e_alr5wi.png",
+        "repo-link": "https://github.com/vw222-sch/products",
         "topics": [
             "fetch API",
             "checkboxok használata",
             "Reszponzív design",
             "Javascript függvények"
         ],
-        "site-link": "..."
+        "site-link": "https://vw222-sch.github.io/products"
     },
     {
         "id": "3",
