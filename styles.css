@@ -2,7 +2,9 @@
     margin: 0;
     font-family: 'Inter';
 }
-
+body {
+    overflow-x: none;
+}
 .hero img {
     border-radius: 50%;
     width: 300px;
