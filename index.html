@@ -139,9 +139,13 @@
         }
         async function main() {
             let data = await fetchJson(src);
-            console.log(data);
 
             data.forEach(v => {
+                let lis = "";
+                v.topics.forEach(u => {
+                    lis += `<li>${u}</li>`;
+                })
+
                 munka.innerHTML += `
                 <div class="e">
                     <img src="${v.photo_url}" alt="">
@@ -149,9 +153,7 @@
                         <h1>${v.title}</h1>
                         <hr>
                         <h2>Témakörök</h2>
-                        <ul>${v.topics.reduce((total, b) => {
-                            return total += `<li>${b}</li>`;
-                        }, '')}</ul>
+                        <ul>${lis}</ul>
                         <div class="b">
                             <a href="${v["repo-link"]}">Github link</a>
                             <a href="${v["site-link"]}">Weboldal link</a>

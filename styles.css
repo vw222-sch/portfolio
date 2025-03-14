@@ -2,8 +2,8 @@
     margin: 0;
     font-family: 'Inter';
 }
-body {
-    overflow-x: none;
+html, body {
+    overflow-x: hidden;
 }
 .hero img {
     border-radius: 50%;
