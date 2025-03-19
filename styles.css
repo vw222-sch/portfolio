@@ -104,6 +104,10 @@ nav img {
     margin-left: 10px;
 }
 
+.work h2 {
+    text-align: center;
+}
+
 .e {
     display: grid;
     grid-template-columns: 1fr 1fr;
