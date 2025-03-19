@@ -3,7 +3,7 @@
         "id": "1",
         "title": "Ingatlaniroda",
         "photo_url": "...",
-        "repo-link": "...",
+        "repo-link": "https://github.com/vw222-sch/ingatlan",
         "topics": [
             "fetch API",
             "Set adatszerkezet",
@@ -12,7 +12,7 @@
             "checkboxok használata",
             "select használata"
         ],
-        "site-link": "..."
+        "site-link": "https://vw222-sch.github.io/ingatlan/"
     },
     {
         "id": "2",
