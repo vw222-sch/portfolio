@@ -40,6 +40,10 @@ nav ul {
     gap: 10px;
 }
 
+nav .nav-links {
+    padding: 0;
+}
+
 nav ul li:not(nav ul li:last-child) {
     border-right: 3px solid orange;
     padding-right: 10px;
@@ -96,16 +100,24 @@ nav img {
     flex-direction: column;
     align-items: center;
     max-width: 800px;
-    height: 100vh;
+    padding: 1em;
     padding-top: 50px;
+    text-align: justify;
+    font-size: 1.2em;
+    letter-spacing: 0.0625em;
+
+    height: fit-content;
+    min-height: 100vh;
 }
 
 .about p::first-letter {
     margin-left: 10px;
 }
 
-.work h2 {
-    text-align: center;
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .e {
@@ -113,22 +125,103 @@ nav img {
     grid-template-columns: 1fr 1fr;
     border: 2px solid orange;
     border-radius: 15px;
+
+    width: 90vw;
+    margin: auto;
 }
 
 .e img {
     width: 50vw;
     border-radius: 15px;
+    margin: auto;
 }
 
-.e div {
+.e .rep {
     height: fit-content;
-    width: 90%;
     margin: auto;
+    padding-bottom: 3rem;
+    width: 90%;
+    position: relative;
 }
 
 .e .b {
     display: flex;
-    position: relative;
-    left: 75%;
+    position: absolute;
+    right: 5px;
     flex-direction: column;
+    width: fit-content;
+}
+
+.contact-container {
+    background-color: #222222;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    gap: 5px;
+    padding: 20px;
+    color: #222222;
+    border-radius: 15px;
+}
+
+form span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+form input {
+    border: 0;
+    box-shadow: #222222 1px 1px 7px;
+}
+
+@media (max-width: 785px) {
+    .e {
+        grid-template-columns: 1fr;
+        width: fit-content;
+    }
+    .about {
+        font-size: 1em;
+    }
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .e {
+        width: 80vw;
+    }
+    .e img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .circles {
+        flex-direction: column;
+        width: 80vw;
+    }
+    .hero {
+        gap: 2rem;
+    }
+
+    .map iframe {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-info {
+        flex-direction: column;
+    }
 }
