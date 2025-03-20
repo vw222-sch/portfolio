@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Ingatlaniroda",
-        "photo_url": "...",
+        "photo_url": "https://res.cloudinary.com/dimmnjecu/image/upload/v1742373646/e4_o5ps5x.png",
         "repo-link": "https://github.com/vw222-sch/ingatlan",
         "topics": [
             "fetch API",
