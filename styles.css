@@ -21,7 +21,7 @@ html, body {
     gap: 25vh;
     height: calc(80vh - 50px);
     /* -20vh cuz pad*/
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 body {
@@ -37,6 +37,7 @@ body nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 69;
 }
 
 nav ul {
@@ -165,6 +166,12 @@ width: 90vw;
     width: fit-content;
 }
 
+.rep h1 {
+    font-size: 3rem;
+    color: rgb(224, 146, 1);
+    margin-bottom: 0.3rem;
+}
+
 .contact-container {
     background-color: #222222;
     color: whitesmoke;
@@ -191,18 +198,44 @@ width: 90vw;
 
 form span {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.375rem;
+    color: rgb(46, 30, 138);
 }
 
-form input {
+form input, form textarea, form button {
     border: 0;
-    box-shadow: #222222 1px 1px 7px;
+    box-shadow: #22222255 1px 4px 7px;
+    margin: 3px 0px;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+    resize: vertical;
+}
+
+form input:focus {
+    outline: 0;
+    border-bottom: 3px solid rgb(46, 30, 138);
+}
+
+form button {
+    background-color: rgb(46, 30, 138);
+    color: white;
+    border-radius: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.logop {
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    margin: 5px;
+    width: 22.5px;
 }
 
 @media (max-width: 785px) {
@@ -234,16 +267,12 @@ form input {
         gap: 2rem;
     }
 
-    .map iframe {
-        width: 320px;
-    }
-
     .folio {
         display: none;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 880px) {
     .contact-info {
         flex-direction: column;
     }
